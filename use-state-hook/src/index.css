@@ -1,0 +1,42 @@
+.counter-container {
+    margin: 10px;
+    padding: 10px;
+    background: linear-gradient(to right, rgba(255, 166, 0, 0.242), white);
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px hsla(60, 0%, 59%, 0.395);
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 250px;
+    max-height: 300px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container p {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.buttons button {
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: rgba(0, 128, 0, 0.584);
+    font-size: 2em;
+    padding: 5px;
+}
