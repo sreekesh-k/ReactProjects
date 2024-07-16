@@ -10,7 +10,7 @@ function App() {
 
   return (
     <main>
-      <header className="w-full h-[100svh] max-h-[100svh] overflow-hidden bg-valorant-bg relative">
+      <header className="w-full overflow-hidden bg-valorant-bg relative">
         <Parralax>
           <img data-depth="0.5" id="content-glitch" classNameName="w-full h-full object-cover anim-studder" src={contentglitch} alt="" />
           <img data-depth="0.4" id="glitch" className="w-full h-full object-cover anim-studder" src={glitch} alt="" />

@@ -7,7 +7,7 @@ function Parralax({ children }){
         new Parallax(scene);
     }, [])
     return (
-        <section id="scene" className="relative w-full h-full parallax-container overflow-hidden">
+        <section id="scene" className="relative w-full h-full h-[100svh] max-h-[100svh] parallax-container overflow-hidden">
             {children}
         </section>
     );
